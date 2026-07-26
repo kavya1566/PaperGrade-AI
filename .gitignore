@@ -1,0 +1,74 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# -----------------------------
+# Environment variables
+# -----------------------------
+.env
+.env.*
+
+# -----------------------------
+# IDEs
+# -----------------------------
+.vscode/
+.idea/
+
+# -----------------------------
+# OS files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+
+# -----------------------------
+# Generated simulator data
+# -----------------------------
+simulator/historian.csv
+simulator/transition_summary.csv
+
+# -----------------------------
+# Generated ML datasets
+# -----------------------------
+ml/datasets/*.csv
+
+# -----------------------------
+# Model artifacts (ignore if reproducible)
+# -----------------------------
+ml/artifacts/*.pkl
+ml/artifacts/*.joblib
+ml/artifacts/*.onnx
+
+# Keep metadata
+!ml/artifacts/model_meta.json
+!ml/artifacts/feature_order.json
+
+# -----------------------------
+# Testing / coverage
+# -----------------------------
+.pytest_cache/
+.coverage
+htmlcov/
+
+# -----------------------------
+# Build
+# -----------------------------
+build/
+dist/
+*.egg-info/

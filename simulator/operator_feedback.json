@@ -1,0 +1,446 @@
+[
+  {
+    "feedback_id": "FB_20260725_125823",
+    "timestamp": "2026-07-25T12:58:23.652967Z",
+    "transition_id": "T0001",
+    "recommendation_id": "REC_01",
+    "action_taken": "ACCEPT",
+    "rejection_reason": "",
+    "operator_notes": "Test accept",
+    "applied_deltas": {}
+  },
+  {
+    "feedback_id": "FB_20260725_144310",
+    "timestamp": "2026-07-25T14:43:10.251263Z",
+    "transition_id": "T0003_G35_G70",
+    "recommendation_id": "SIM_T0003_G35_G70_9M",
+    "action_taken": "APPLY_DCS",
+    "rejection_reason": "",
+    "operator_notes": "Digital Twin validated recommendation applied to DCS",
+    "applied_deltas": {
+      "stock_flow": 734.0,
+      "machine_speed": 934.0,
+      "steam_pressure": 4.65,
+      "filler_flow": 41.5
+    }
+  },
+  {
+    "feedback_id": "FB_20260725_144314",
+    "timestamp": "2026-07-25T14:43:14.219054Z",
+    "transition_id": "T0003_G35_G70",
+    "recommendation_id": "SIM_T0003_G35_G70_9M",
+    "action_taken": "DISCARD",
+    "rejection_reason": "Discarded after Digital Twin simulation review",
+    "operator_notes": "",
+    "applied_deltas": {
+      "stock_flow": 734.0,
+      "machine_speed": 934.0,
+      "steam_pressure": 4.65,
+      "filler_flow": 41.5
+    }
+  },
+  {
+    "feedback_id": "FB_20260726_035409",
+    "timestamp": "2026-07-26T03:54:09.296901Z",
+    "recommendation_id": "REC_STOCK_FLOW_G20_G70",
+    "action_taken": "ACCEPT",
+    "grade_from": "G20",
+    "grade_to": "G70",
+    "current_mvs": {
+      "stock_flow": 600.0,
+      "steam_pressure": 4.2,
+      "machine_speed": 910.0,
+      "filler_flow": 34.0
+    },
+    "baseline_risk": 0.804,
+    "tuned_risk": 0.322,
+    "risk_reduction_pct": 48.3,
+    "rejection_reason": "",
+    "operator_notes": "",
+    "retraining_status": "QUEUED"
+  },
+  {
+    "feedback_id": "FB_20260726_035413",
+    "timestamp": "2026-07-26T03:54:13.747160Z",
+    "recommendation_id": "REC_STEAM_PRESSURE_G20_G70",
+    "action_taken": "ACCEPT",
+    "grade_from": "G20",
+    "grade_to": "G70",
+    "current_mvs": {
+      "stock_flow": 600.0,
+      "steam_pressure": 4.2,
+      "machine_speed": 910.0,
+      "filler_flow": 34.0
+    },
+    "baseline_risk": 0.804,
+    "tuned_risk": 0.322,
+    "risk_reduction_pct": 48.3,
+    "rejection_reason": "",
+    "operator_notes": "",
+    "retraining_status": "QUEUED"
+  },
+  {
+    "feedback_id": "FB_20260726_035452",
+    "timestamp": "2026-07-26T03:54:52.423524Z",
+    "recommendation_id": "REC_MACHINE_SPEED_G20_G70",
+    "action_taken": "ACCEPT",
+    "grade_from": "G20",
+    "grade_to": "G70",
+    "current_mvs": {
+      "stock_flow": 600.0,
+      "steam_pressure": 4.2,
+      "machine_speed": 910.0,
+      "filler_flow": 34.0
+    },
+    "baseline_risk": 0.804,
+    "tuned_risk": 0.322,
+    "risk_reduction_pct": 48.3,
+    "rejection_reason": "",
+    "operator_notes": "",
+    "retraining_status": "QUEUED"
+  },
+  {
+    "feedback_id": "FB_20260726_045156",
+    "timestamp": "2026-07-26T04:51:56.821608Z",
+    "transition_id": "TRANS_G20_G70",
+    "recommendation_id": "REC_STOCK_FLOW_G20_G70",
+    "action_taken": "ACCEPT",
+    "grade_from": "G20",
+    "grade_to": "G70",
+    "current_mvs": {
+      "stock_flow": 400.0,
+      "steam_pressure": 4.2,
+      "machine_speed": 910.0,
+      "filler_flow": 34.0
+    },
+    "accepted_recommendations": [
+      "REC_STOCK_FLOW_G20_G70"
+    ],
+    "rejected_recommendations": [],
+    "risk_before": 0.797,
+    "risk_after": 0.319,
+    "baseline_risk": 0.797,
+    "tuned_risk": 0.319,
+    "risk_reduction_pct": 47.8,
+    "rejection_reason": "",
+    "operator_notes": "",
+    "retraining_status": "QUEUED"
+  },
+  {
+    "feedback_id": "FB_20260726_045158",
+    "timestamp": "2026-07-26T04:51:58.368282Z",
+    "transition_id": "TRANS_G20_G70",
+    "recommendation_id": "REC_MACHINE_SPEED_G20_G70",
+    "action_taken": "ACCEPT",
+    "grade_from": "G20",
+    "grade_to": "G70",
+    "current_mvs": {
+      "stock_flow": 400.0,
+      "steam_pressure": 4.2,
+      "machine_speed": 910.0,
+      "filler_flow": 34.0
+    },
+    "accepted_recommendations": [
+      "REC_MACHINE_SPEED_G20_G70"
+    ],
+    "rejected_recommendations": [],
+    "risk_before": 0.797,
+    "risk_after": 0.319,
+    "baseline_risk": 0.797,
+    "tuned_risk": 0.319,
+    "risk_reduction_pct": 47.8,
+    "rejection_reason": "",
+    "operator_notes": "",
+    "retraining_status": "QUEUED"
+  },
+  {
+    "feedback_id": "FB_20260726_045210",
+    "timestamp": "2026-07-26T04:52:10.735475Z",
+    "transition_id": "TRANS_G20_G70",
+    "recommendation_id": "DT_G20_G70_045210",
+    "action_taken": "APPLY_DCS",
+    "grade_from": "G20",
+    "grade_to": "G70",
+    "current_mvs": {
+      "stock_flow": 740.0,
+      "machine_speed": 935.0
+    },
+    "accepted_recommendations": [
+      "DT_G20_G70_045210"
+    ],
+    "rejected_recommendations": [],
+    "risk_before": 0.998,
+    "risk_after": 0.399,
+    "baseline_risk": 0.998,
+    "tuned_risk": 0.399,
+    "risk_reduction_pct": 59.9,
+    "rejection_reason": "",
+    "operator_notes": "Digital Twin validated \u2014 applied to DCS",
+    "retraining_status": "QUEUED"
+  },
+  {
+    "feedback_id": "FB_20260726_045226",
+    "timestamp": "2026-07-26T04:52:26.133921Z",
+    "transition_id": "TRANS_G20_G70",
+    "recommendation_id": "REC_TEST",
+    "action_taken": "ACCEPT",
+    "grade_from": "G20",
+    "grade_to": "G70",
+    "current_mvs": {
+      "stock_flow": 600
+    },
+    "accepted_recommendations": [
+      "REC_TEST"
+    ],
+    "rejected_recommendations": [],
+    "risk_before": 0.8,
+    "risk_after": 0.3,
+    "baseline_risk": 0.8,
+    "tuned_risk": 0.3,
+    "risk_reduction_pct": 50.0,
+    "rejection_reason": "",
+    "operator_notes": "",
+    "retraining_status": "QUEUED"
+  },
+  {
+    "feedback_id": "FB_20260726_051221",
+    "timestamp": "2026-07-26T05:12:21.345393Z",
+    "transition_id": "TRANS_G20_G70",
+    "recommendation_id": "REC_STOCK_FLOW_G20_G70",
+    "action_taken": "ACCEPT",
+    "grade_from": "G20",
+    "grade_to": "G70",
+    "current_mvs": {
+      "stock_flow": 987.0,
+      "steam_pressure": 4.2,
+      "machine_speed": 910.0,
+      "filler_flow": 34.0
+    },
+    "accepted_recommendations": [
+      "REC_STOCK_FLOW_G20_G70"
+    ],
+    "rejected_recommendations": [],
+    "risk_before": 0.805,
+    "risk_after": 0.322,
+    "baseline_risk": 0.805,
+    "tuned_risk": 0.322,
+    "risk_reduction_pct": 48.3,
+    "rejection_reason": "",
+    "operator_notes": "",
+    "retraining_status": "QUEUED"
+  },
+  {
+    "feedback_id": "FB_20260726_051230",
+    "timestamp": "2026-07-26T05:12:30.949032Z",
+    "transition_id": "TRANS_G20_G70",
+    "recommendation_id": "REC_STEAM_PRESSURE_G20_G70",
+    "action_taken": "ACCEPT",
+    "grade_from": "G20",
+    "grade_to": "G70",
+    "current_mvs": {
+      "stock_flow": 987.0,
+      "steam_pressure": 4.2,
+      "machine_speed": 910.0,
+      "filler_flow": 34.0
+    },
+    "accepted_recommendations": [
+      "REC_STEAM_PRESSURE_G20_G70"
+    ],
+    "rejected_recommendations": [],
+    "risk_before": 0.805,
+    "risk_after": 0.322,
+    "baseline_risk": 0.805,
+    "tuned_risk": 0.322,
+    "risk_reduction_pct": 48.3,
+    "rejection_reason": "",
+    "operator_notes": "",
+    "retraining_status": "QUEUED"
+  },
+  {
+    "feedback_id": "FB_20260726_051256",
+    "timestamp": "2026-07-26T05:12:56.273791Z",
+    "transition_id": "TRANS_G20_G70",
+    "recommendation_id": "DT_G20_G70_051256",
+    "action_taken": "APPLY_DCS",
+    "grade_from": "G20",
+    "grade_to": "G70",
+    "current_mvs": {
+      "stock_flow": 740.0,
+      "steam_pressure": 4.6
+    },
+    "accepted_recommendations": [
+      "DT_G20_G70_051256"
+    ],
+    "rejected_recommendations": [],
+    "risk_before": 0.998,
+    "risk_after": 0.399,
+    "baseline_risk": 0.998,
+    "tuned_risk": 0.399,
+    "risk_reduction_pct": 59.9,
+    "rejection_reason": "",
+    "operator_notes": "Digital Twin validated \u2014 applied to DCS",
+    "retraining_status": "QUEUED"
+  },
+  {
+    "feedback_id": "FB_20260726_060540",
+    "timestamp": "2026-07-26T06:05:40.781898Z",
+    "transition_id": "TRANS_G20_G70",
+    "recommendation_id": "DT_G20_G70_060540",
+    "action_taken": "APPLY_DCS",
+    "grade_from": "G20",
+    "grade_to": "G70",
+    "current_mvs": {
+      "stock_flow": 740.0,
+      "steam_pressure": 4.6,
+      "machine_speed": 935.0,
+      "filler_flow": 34.5
+    },
+    "accepted_recommendations": [
+      "DT_G20_G70_060540"
+    ],
+    "rejected_recommendations": [],
+    "risk_before": 0.8,
+    "risk_after": 0.0,
+    "baseline_risk": 0.8,
+    "tuned_risk": 0.0,
+    "risk_reduction_pct": 80.0,
+    "rejection_reason": "",
+    "operator_notes": "Digital Twin validated \u2014 32 off-spec min, peak dev 57.2%",
+    "retraining_status": "QUEUED"
+  },
+  {
+    "feedback_id": "FB_20260726_060554",
+    "timestamp": "2026-07-26T06:05:54.765434Z",
+    "transition_id": "TRANS_G20_G70",
+    "recommendation_id": "DT_G20_G70_060554",
+    "action_taken": "APPLY_DCS",
+    "grade_from": "G20",
+    "grade_to": "G70",
+    "current_mvs": {
+      "stock_flow": 740.0,
+      "steam_pressure": 4.6,
+      "machine_speed": 935.0,
+      "filler_flow": 34.5
+    },
+    "accepted_recommendations": [
+      "DT_G20_G70_060554"
+    ],
+    "rejected_recommendations": [],
+    "risk_before": 0.8,
+    "risk_after": 0.0,
+    "baseline_risk": 0.8,
+    "tuned_risk": 0.0,
+    "risk_reduction_pct": 80.0,
+    "rejection_reason": "",
+    "operator_notes": "Digital Twin validated \u2014 32 off-spec min, peak dev 57.2%",
+    "retraining_status": "QUEUED"
+  },
+  {
+    "feedback_id": "FB_20260726_060749",
+    "timestamp": "2026-07-26T06:07:49.720790Z",
+    "transition_id": "TRANS_G20_G35",
+    "recommendation_id": "DT_G20_G35_060749",
+    "action_taken": "APPLY_DCS",
+    "grade_from": "G20",
+    "grade_to": "G35",
+    "current_mvs": {
+      "stock_flow": 575.0,
+      "steam_pressure": 4.15,
+      "machine_speed": 910.0,
+      "filler_flow": 34.5
+    },
+    "accepted_recommendations": [
+      "DT_G20_G35_060749"
+    ],
+    "rejected_recommendations": [],
+    "risk_before": 0.45,
+    "risk_after": 0.0,
+    "baseline_risk": 0.45,
+    "tuned_risk": 0.0,
+    "risk_reduction_pct": 45.0,
+    "rejection_reason": "",
+    "operator_notes": "Digital Twin validated \u2014 18 off-spec min, peak dev 28.5%",
+    "retraining_status": "QUEUED"
+  },
+  {
+    "feedback_id": "FB_20260726_060907",
+    "timestamp": "2026-07-26T06:09:07.995704Z",
+    "transition_id": "TRANS_G50_G35",
+    "recommendation_id": "REC_STOCK_FLOW_G50_G35",
+    "action_taken": "ACCEPT",
+    "grade_from": "G50",
+    "grade_to": "G35",
+    "current_mvs": {
+      "stock_flow": 600.0,
+      "steam_pressure": 4.2,
+      "machine_speed": 910.0,
+      "filler_flow": 34.0
+    },
+    "accepted_recommendations": [
+      "REC_STOCK_FLOW_G50_G35"
+    ],
+    "rejected_recommendations": [],
+    "risk_before": 0.522,
+    "risk_after": 0.209,
+    "baseline_risk": 0.522,
+    "tuned_risk": 0.209,
+    "risk_reduction_pct": 31.3,
+    "rejection_reason": "",
+    "operator_notes": "",
+    "retraining_status": "QUEUED"
+  },
+  {
+    "feedback_id": "FB_20260726_060908",
+    "timestamp": "2026-07-26T06:09:08.933465Z",
+    "transition_id": "TRANS_G50_G35",
+    "recommendation_id": "REC_STEAM_PRESSURE_G50_G35",
+    "action_taken": "ACCEPT",
+    "grade_from": "G50",
+    "grade_to": "G35",
+    "current_mvs": {
+      "stock_flow": 600.0,
+      "steam_pressure": 4.2,
+      "machine_speed": 910.0,
+      "filler_flow": 34.0
+    },
+    "accepted_recommendations": [
+      "REC_STEAM_PRESSURE_G50_G35"
+    ],
+    "rejected_recommendations": [],
+    "risk_before": 0.522,
+    "risk_after": 0.209,
+    "baseline_risk": 0.522,
+    "tuned_risk": 0.209,
+    "risk_reduction_pct": 31.3,
+    "rejection_reason": "",
+    "operator_notes": "",
+    "retraining_status": "QUEUED"
+  },
+  {
+    "feedback_id": "FB_20260726_060909",
+    "timestamp": "2026-07-26T06:09:09.983806Z",
+    "transition_id": "TRANS_G50_G35",
+    "recommendation_id": "REC_FILLER_FLOW_G50_G35",
+    "action_taken": "ACCEPT",
+    "grade_from": "G50",
+    "grade_to": "G35",
+    "current_mvs": {
+      "stock_flow": 600.0,
+      "steam_pressure": 4.2,
+      "machine_speed": 910.0,
+      "filler_flow": 34.0
+    },
+    "accepted_recommendations": [
+      "REC_FILLER_FLOW_G50_G35"
+    ],
+    "rejected_recommendations": [],
+    "risk_before": 0.522,
+    "risk_after": 0.209,
+    "baseline_risk": 0.522,
+    "tuned_risk": 0.209,
+    "risk_reduction_pct": 31.3,
+    "rejection_reason": "",
+    "operator_notes": "",
+    "retraining_status": "QUEUED"
+  }
+]
