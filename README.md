@@ -17,7 +17,7 @@ PaperGrade-AI follows a modular decision-support architecture that combines mach
 
 The workflow begins with operator inputs, processes them through specialized AI services, validates recommendations using simulation and historical evidence, and presents an integrated decision package through an interactive dashboard.
 
-![System Workflow](image.png)
+![System Workflow](screenshots/system-workflow.png)
 
 ## Project Structure
 
@@ -160,7 +160,7 @@ These results were obtained using a **held-out test set of 1,500 paper grade tra
 
 ### Prediction & Recommendation Dashboard
 Predict paper quality for a selected grade transition and receive AI-assisted operational recommendations.
-![Prediction & Recommendation Dashboard](<screenshots/prediction-and-recommendations.pngprediction-and-recommendations.png>)
+![Prediction & Recommendation Dashboard](screenshots/prediction-and-recommendations.png)
 
 ### AI Decision Support & Operational Recommendations
 Review AI-generated recommendations, process health indicators, causal explanations, and suggested operational adjustments before applying changes to production.
