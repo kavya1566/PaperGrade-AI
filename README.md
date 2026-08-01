@@ -160,36 +160,36 @@ These results were obtained using a **held-out test set of 1,500 paper grade tra
 
 ### Prediction & Recommendation Dashboard
 Predict paper quality for a selected grade transition and receive AI-assisted operational recommendations.
-![Prediction & Recommendation Dashboard](<prediction-and-recommendations.png>)
+![Prediction & Recommendation Dashboard](<screenshots/prediction-and-recommendations.pngprediction-and-recommendations.png>)
 
 ### AI Decision Support & Operational Recommendations
 Review AI-generated recommendations, process health indicators, causal explanations, and suggested operational adjustments before applying changes to production.
-![AI Decision Support](ai-decision-support.png)
+![AI Decision Support](screenshots/ai-decision-support.png)
 
 ### Explainable AI & Future State Prediction
 Interpret model predictions using SHAP-based feature attribution, understand the physical causal chain behind each recommendation, and forecast future process behavior if no corrective actions are applied.
-![Explainable AI & Future State Prediction](explainable-ai-future-state.png)
+![Explainable AI & Future State Prediction](screenshots/explainable-ai-future-state.png)
 
 ### Historical Transition Analysis
 Compare the current grade transition with historical production runs and analyze process telemetry correlations to identify key relationships influencing paper quality.
-![Historical Transition Analysis](historical-transition-analysis.png)
+![Historical Transition Analysis](screenshots/historical-transition-analysis.png)
 
 ### Digital Twin Sandbox
 Interactively simulate grade transitions by modifying process parameters, evaluating predicted process behavior, and validating operating strategies before deployment to the production line.
-![Digital Twin Sandbox](digital-twin-sandbox.png)
+![Digital Twin Sandbox](screenshots/digital-twin-sandbox.png)
 
 ### Simulation Results & Process Forecast
 Visualize the predicted process behavior over time, evaluate quality deviations and stabilization metrics, and assess whether the proposed operating parameters will achieve the target paper grade before deployment.
-![Simulation Results](simulation-results-1.png)
-![Simulation Results](simulation-results-2.png)
-![Simulation Results](simulation-results-3.png)
-![Simulation Results](simulation-results-4.png)
+![Simulation Results](screenshots/simulation-results-1.png)
+![Simulation Results](screenshots/simulation-results-2.png)
+![Simulation Results](screenshots/simulation-results-3.png)
+![Simulation Results](screenshots/simulation-results-4.png)
 
 ### Feedback & Audit Log
 Track operator decisions, review historical transition records, monitor model performance, and maintain a complete audit trail to support continuous process improvement and operational transparency.
-![Feedback & Audit Log](feedback-audit-log.png)
+![Feedback & Audit Log](screenshots/feedback-audit-log.png)
 
-![Engineering Console & Model Governance](engineering-console-model-governance.png)
+![Engineering Console & Model Governance](screenshots/engineering-console-model-governance.png)
 
 
 ## Repository
