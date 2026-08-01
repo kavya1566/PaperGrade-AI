@@ -1001,12 +1001,12 @@ def render_digital_twin_sandbox():
     <div class="card" style="margin-bottom:8px">
       <div style="font-size:12px;color:#555">
         Review the simulation results above. If satisfied with predicted process behavior, click
-        <strong>Apply Setpoints to DCS</strong> to dispatch these parameters to the controller.
+        <strong>Apply Setpoints</strong> to dispatch these parameters to the controller.
       </div>
     </div>
     """, unsafe_allow_html=True)
 
-    if st.button("Apply Setpoints to DCS", type="primary", use_container_width=True):
+    if st.button("Apply Setpoints", type="primary", use_container_width=True):
         _log_decision(
             action="APPLY_DCS",
             rec_id=f"DT_{sim_gf}_{sim_gt}_{datetime.utcnow().strftime('%H%M%S')}",
@@ -1016,7 +1016,7 @@ def render_digital_twin_sandbox():
             tuned_risk=0.0,
             notes=f"Digital Twin validated — {off_spec_mins} off-spec min, peak dev {peak_dev:.1f}%",
         )
-        st.success("Setpoints dispatched to DCS. Decision logged to audit trail.")
+        st.success("Setpoints dispatched. Decision logged to audit trail.")
 
 
 # ── VIEW 3: Feedback & Audit Log ──────────────────────────────────────────────
